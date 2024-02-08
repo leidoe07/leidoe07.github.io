@@ -1,0 +1,16 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+h1{
+    
+    color: #D80032;
+    font-family: Workbench;
+    font-size: xx-large;
+}
+body{
+    background-color:#F78CA2;
+    font-family: Inconsolata;
+}
