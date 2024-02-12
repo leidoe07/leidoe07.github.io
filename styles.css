@@ -1,16 +1,43 @@
 
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
 h1{
     
-    color: #D80032;
+    color: #34504a;
     font-family: Workbench;
-    font-size: xx-large;
+    font-size: 100px;
+    text-align: center;
+    padding: 20mm;
+    ;
 }
 body{
-    background-color:#F78CA2;
+    background-color:#81a98c;
     font-family: Inconsolata;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: #563001;
+    padding: px;
+    margin:0;
+    align-items: center;
+    overflow: hidden;
+
+}
+.navbar a{
+    background-color: #563001;
+    color: #F9DEC9;
+    text-decoration:none;
+    padding: 15px;
+    padding-left: 15;
+    display:  inline block;
+    text-align: center;
+}
+.navbar :hover{
+    color:#bd667752;
+    display: block;
+    text-align: center;
+}
+.navbar li{
+    float: left;
+
 }
