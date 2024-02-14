@@ -7,9 +7,15 @@ h1{
     font-family: Workbench;
     font-size: 100px;
     text-align: center;
-    padding: 20mm;
+    padding: 10mm;
     ;
 }
+p{
+ color: #01321f;  
+ padding: mm;
+}
+  
+
 body{
     background-color:#81a98c;
     font-family: Inconsolata;
@@ -29,11 +35,12 @@ body{
     text-decoration:none;
     padding: 15px;
     padding-left: 15;
-    display:  inline block;
+    display:   block;
     text-align: center;
 }
 .navbar :hover{
-    color:#bd667752;
+    
+    background-color: #b38954;
     display: block;
     text-align: center;
 }
