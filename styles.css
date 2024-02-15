@@ -5,17 +5,19 @@ h1{
     
     color: #34504a;
     font-family: Workbench;
-    font-size: 100px;
+    font-size: 50px;
     text-align: center;
-    padding: 10mm;
+    padding:mm;
     ;
 }
 p{
  color: #01321f;  
- padding: mm;
+ padding: 1mm;
 }
   
-
+img{
+height: 300px;
+}
 body{
     background-color:#81a98c;
     font-family: Inconsolata;
@@ -25,7 +27,7 @@ body{
     background-color: #563001;
     padding: px;
     margin:0;
-    align-items: center;
+    align-items: flex-end;
     overflow: hidden;
 
 }
@@ -47,4 +49,8 @@ body{
 .navbar li{
     float: left;
 
+}
+
+.bon{
+    background-color: #70957b;
 }
