@@ -10,6 +10,13 @@
     padding:mm;
     ;
 }
+    h2,h3{
+    color: #34504aba;
+    font-family: Inconsolat;
+    text-align: center;
+
+
+    }
 p{
  color: #01321f;  
  padding: 1mm;
@@ -17,44 +24,77 @@ p{
   
 img{
 height: 300px;
+
 }
-body{
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  
+
+.center:nth-child(even){
+    margin-left: 0ch;
+    position: static;
+
+}
+.center:nth-child(odd){
+    margin-right: 0ch;
+    border-color: #81a98c;
+    position: static
+}
+  body{
     background-color:#81a98c;
     font-family: Inconsolata;
+    left: 10px
 }
 .navbar ul{
-    list-style-type: none;
+    display:  block;
     background-color: #563001;
-    padding: px;
+    padding:px;
     margin:0;
     align-items: flex-end;
     overflow: hidden;
-   text-align: center;
+   text-align: right;
+   list-style-type: none;
 
 }
 .navbar a{
     background-color: #563001;
-    color: #F9DEC9;
+    color: #e9be8892;
     text-decoration:none;
     padding: 15px;
     padding: top 0px;;
     display:  block;
     text-align: center;
     position: sticky;
+    font-family: Inconsolat;
     
 }
 .navbar :hover{
     
-    background-color: #895e2a;
+    color: hsl(32, 100%, 97%)
     display: block;
     text-align: center;
 }
+.navbar:visited{
+    color: #70957b;
+    border-color: antiquewhite;
+}
 .navbar li{
     float: center
-     ;
-
+    
 }
 
-.bon{
+a:hover{
+    color: #e9be8892;
+    font-family: Inconsolat;
+    font-weight: bolder;
+}
+.bon:active{
     background-color: #70957b;
 }
+a:visited{
+    color:antiquewhite}
