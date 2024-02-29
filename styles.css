@@ -98,3 +98,35 @@ a:hover{
 }
 a:visited{
     color:antiquewhite}
+
+
+    input[type=text] {
+        border: 2px solid rgb(17, 147, 88);
+        background-color: #81a98c;
+        width: 100%;
+        padding: 12px 20px;
+        color: #01321f;
+      }
+      input[type=email] {
+        border: 2px solid rgb(17, 147, 88);
+        
+        background-color: #81a98c;
+        border-radius: 4px;
+        width: 100%;
+     padding: 12px 20px;
+     color: #01321f;
+
+    }
+      input[type=submit]{
+        background-color: #81a98c;
+        width: 70%;
+        border-color: #563001;
+        color: #01321f;
+        
+      }
+      input[type=reset]{
+        background-color: #81a98c;
+        width: 70%;
+        border-color: #563001;
+        color: #34504a;
+      }

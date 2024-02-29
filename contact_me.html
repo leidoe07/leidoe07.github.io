@@ -7,11 +7,50 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<a href="who_am_i.html"> who am I   ....</a>
-<a href="portfolio.html"> My portfolio...</a>
-<a href="index.html"> Homepage...</a>
-<body>
 
+<body>
+    <nav class="navbar" >
+
+        <ul>
+            <li><a href="index.html"> Homepage...</a></li>
+            <li><a href="who_am_i.html"> who am I   ....</a></li>
+            <li><a href="portfolio.html"> My portfolio...</a></li>
+            <li><a href="https://docs.google.com/document/d/14SqNx6zzWUc1ZhP1nkZIhSEsnGWhtl53BlWV41C7k4A/edit?usp=sharing"> My resume...</a></li>
+            <li><a href="contact_me.html">Contact me...</a></li>
+        </ul>
+    </nav>
     <h1 class="bon" >How to contact Me</h1>
+    <form
+    action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+    method="post">
+        <div>
+        <label for="fstname">FirstName</label>
+        <input type="text" id="fstname" name="fstname" placeholder="Harry">
+        </div>
+        <br>
+        <div>
+        <label for="lstname">LastName </label>
+        <input type="text" id="lstname" name="lstname" placeholder="Potter"  >
+        </div>
+        <br>
+        <div>
+        <label for="email">Email</label>
+        <input type="email"id="email" name="email" placeholder="theBoywhoLivedhp@hogwarts.mage">
+        </div>
+        <br>
+        <div>
+        <label for="purpose"> Purpose</label>
+        <input type="text"id="purpose" name="purpose" placeholder="Your a wizard Harry">
+        </div>
+        <br>
+        <div>
+            <input type="submit">
+        </div>    
+        <br>
+        <div>
+            <input type="reset">
+            <input name="send-to" value="ldore@brooklynsteamcenter.org" hidden>
+        </div>
+    </form>
 </body>
 </html>.
