@@ -166,24 +166,46 @@ a:visited{
 
     font-size: 30px;
 }
-  
+.beyonce{
+    
+  border: 2px solid rgb(17, 147, 88);
+  background-color: #81a98c;
+  width: 100%;
+  padding: 12px 20px;
+  color: #01321f;
+
+}
   }
 
-
-  @media(min-width:768px){
-    p{font-size: 60px;
+  @media(max-width:400px){
+    p{font-size: 15px;
+      
+    }
+    .navbar{
+      font-size: 25px;
+      padding: .5px;
+      }
+  
+  }
+  @media(min-width:401px),(max-width:600px){
+    p{font-size: 30px;
+      
+    }
+    .center {
+      left: 2px
     }
   
   }
 @media(min-width:1024px){
-    p{font-size: 20px;
+    p{font-size: 50px;
     }
   
   }  
 
   @media(min-width:1200){
-    p{font-size: 60px;
+    p{font-size: 30px;
      padding: 768; 
     }
   
   }
+  
