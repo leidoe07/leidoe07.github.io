@@ -1,211 +1,53 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
-
-   h1{
-    color: #34504a;
-    font-family: Workbench;
-    font-size: 50px;
-    text-align: center;
-    padding:mm;
-    ;
-}
-    h2,h3{
-    color: #34504aba;
-    font-family: Inconsolat;
-    text-align: center;
-
-
-    }
-p{
- color: #01321f;  
- padding: 1mm;
-}
-  
-img{
-height: 300px;
-
-}
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+@media only screen and (max-width: 480px) {
+  p {
+    font-size: 20px;
   }
-
-  
-
-.center:nth-child(even){
-    margin-left: 0ch;
-    position: static;
-
-}
-.center:nth-child(odd){
-    margin-right: 0ch;
-    border-color: #81a98c;
-    position: static
-}
-  body{
-    background-color:#81a98c;
-    font-family: Inconsolata;
-    left: 10px
-}
-.navbar ul{
-    display:  block;
-    background-color: #563001;
-    padding:px;
-    margin:0;
-    align-items: flex-end;
-    overflow: hidden;
-   text-align: right;
-   list-style-type: none;
-
-}
-.navbar a{
-    background-color: #563001;
-    color: #e9be8892;
-    text-decoration:none;
-    padding: 15px;
-    padding: top 0px;;
-    display:  block;
-    text-align: center;
-    position: sticky;
-    font-family: Inconsolat;
-    
-}
-.navbar :hover{
-    
-    color: hsl(32, 100%, 97%)
-    display: block;
-    text-align: center;
-}
-.navbar:visited{
-    color: #70957b;
-    border-color: antiquewhite;
-}
-.navbar li{
-    float: center
-    
-}
-
-a:hover{
-    color: #e9be8892;
-    font-family: Inconsolat;
-    font-weight: bolder;
-}
-.bon:active{
-    background-color: #70957b;
-}
-a:visited{
-    color:antiquewhite}
-
-
-    input[type=text] {
-        border: 2px solid rgb(17, 147, 88);
-        background-color: #81a98c;
-        width: 100%;
-        padding: 12px 20px;
-        color: #01321f;
-      }
-      input[type=email] {
-        border: 2px solid rgb(17, 147, 88);
-        
-        background-color: #81a98c;
-        border-radius: 4px;
-        width: 100%;
-     padding: 12px 20px;
-     color: #01321f;
-
-    }
-      input[type=submit]{
-        background-color: #81a98c;
-        width: 70%;
-        border-color: #563001;
-        color: #01321f;
-        
-      }
-      input[type=reset]{
-        background-color: #81a98c;
-        width: 70%;
-        border-color: #563001;
-        color: #34504a;
-      }
-      .fa-instagram{
-        font-size: 80px;
-
-      }
-      .fa-square-github{
-        font-size: 80px;
-    
-      }
-      .fa-envelope {
-
-        font-size: 80px;
-}
-
-@media(max-width:480){
-  p{
-    font-size: 70px;
+  h1 {
+    font-size: 100px;
   }
-  h1{
-    font-size: 400px;
+  .navbar {
+    font-size: 40px;
   }
-  .navbar{
-  
-    font-size:50px;
-  }
-  fa-instagram{
-    font-size: 30px;
-
-  }
-  .fa-square-github{
-    font-size: 30px;
-
-  }
+  .fa-instagram,
+  .fa-square-github,
   .fa-envelope {
+    font-size: 50px;
+  }
+  .beyonce {
+    font-size: 20px;
+  }
+}
 
+@media only screen and (max-width: 400px) {
+  p {
+    font-size: 15px;
+  }
+  .navbar {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 600px) {
+  p {
     font-size: 30px;
+  }
+  .center {
+    left: 2px;
+  }
 }
-.beyonce{
-    
-  border: 2px solid rgb(17, 147, 88);
-  background-color: #81a98c;
-  width: 100%;
-  padding: 12px 20px;
-  color: #01321f;
 
+@media only screen and (min-width: 1024px) {
+  p {
+    font-size: 50px;
+  }
 }
-  }
 
-  @media(max-width:400px){
-    p{font-size: 15px;
-      
-    }
-    .navbar{
-      font-size: 25px;
-      padding: .5px;
-      }
-  
+@media only screen and (min-width: 1200px) {
+  p {
+    font-size: 30px;
+    padding: 768px;
   }
-  @media(min-width:401px),(max-width:600px){
-    p{font-size: 30px;
-      
-    }
-    .center {
-      left: 2px
-    }
-  
-  }
-@media(min-width:1024px){
-    p{font-size: 50px;
-    }
-  
-  }  
+}
 
-  @media(min-width:1200){
-    p{font-size: 30px;
-     padding: 768; 
-    }
-  
   }
   
