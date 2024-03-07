@@ -1,1 +1,60 @@
-https://github.com/leidoe07/leidoe07.github.io/tree/main
+
+@media(max-width:480px){
+  p{
+    font-size: 70px;
+  }
+  h1{
+    font-size: 400px;
+  }
+  .navbar{
+    font-size:50px;
+  }
+  .fa-instagram{
+    font-size: 30px;
+  }
+  .fa-square-github{
+    font-size: 30px;
+  }
+  .fa-envelope {
+    font-size: 30px;
+  }
+  .beyonce{
+    border: 2px solid rgb(17, 147, 88);
+    background-color: #81a98c;
+    width: 100%;
+    padding: 12px 20px;
+    color: #01321f;
+  }
+}
+
+@media(max-width:400px){
+  p{
+    font-size: 15px;
+  }
+  .navbar{
+    font-size: 25px;
+    padding: .5px;
+  }
+}
+
+@media(min-width:401px) and (max-width:600px){
+  p{
+    font-size: 30px;
+  }
+  .center {
+    left: 2px;
+  }
+}
+
+@media(min-width:1024px){
+  p{
+    font-size: 50px;
+  }
+}
+
+@media(min-width:1200px){
+  p{
+    font-size: 30px;
+    padding: 768px;
+  }
+}
